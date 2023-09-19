@@ -1,0 +1,41 @@
+@import './colors.css';
+@import './fonts.css';
+@import '../style.css';
+
+.efeito {
+    position: relative;
+}
+
+.texto, .dupla {
+    visibility: hidden;
+    position: absolute;
+    left: -0.05rem;
+    right: -0.05rem;
+    bottom: 0.25rem;
+}
+
+.texto p, .dupla p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: var(--livvic);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gray-transparent);
+    padding-inline: 4rem;
+    padding-block: 6.75rem;
+    border-radius: 10px;
+}
+
+.dupla p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.efeito:hover .texto, .efeito:hover .dupla {
+    visibility: visible;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+@import './colors.css';
+@import './fonts.css';
+
+
+.vermelho {
+    display: flex;
+    justify-content: center;
+    background: var(--red);
+    padding-inline: 4rem;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    margin-right: 8.5rem;
+    margin-left: 4rem;
+    margin-bottom: 10.375rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: var(--lora);
+    color: var(--white);
+}
+
+p {
+    font-size: 2rem;
+    font-family: var(--livvic);
+    color: var(--white);
+
+}
+
+.img {
+    width: 33rem;
+    margin-right: 6.25rem;
+}
+
+.branco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-block: 15rem;
+}
+
+.branco-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-block: 15rem;
+}
+
+.branco-nervoso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-block: 15rem;
+    flex-wrap: wrap;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.aumentar:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,32 @@
+
+*{
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.card1{
+    background-color:#AF0000;
+    width:350px;
+    height:450px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+p{
+    color:white;
+    font-size:40px;
+    display:flex;
+    align-items:center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aumentar:hover{
+    transform: scale(1.1);
+}

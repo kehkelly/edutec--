@@ -1,0 +1,76 @@
+@import './fonts.css';
+@import './colors.css';
+
+
+.logo {
+    width: 7.25rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.card {
+    position: relative;
+}
+
+.texto {
+    visibility: hidden;
+    position: absolute;
+    left: 5.125rem;
+    right: 5.125rem;
+    bottom: 28rem;
+}
+
+.texto p {
+    color: var(--white);
+    font-family: var(--lora);
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dupla, .dupla2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: -1rem;
+}
+
+.botao {
+    visibility: hidden;
+    position: absolute;
+    left: 4.125rem;
+    right: 4.125rem;
+    bottom: 2.375rem;
+}
+
+.botao a {
+    display: flex;
+    justify-content: center;
+    color: var(--red);
+    font-size: 1.5rem;
+    font-family: var(--livvic);
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background: var(--baby-pink);
+    text-decoration: none;
+}
+
+.card:hover .texto, .card:hover .botao {
+    visibility: visible;
+}
+
+#forca {
+    margin-bottom: 11rem;
+}
+
+.dupla2 {
+    margin-bottom: 8rem;
+}

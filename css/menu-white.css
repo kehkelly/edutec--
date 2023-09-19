@@ -1,0 +1,70 @@
+@import '../css/colors.css';
+@import '../css/fonts.css';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-family: var(--livvic);
+  text-decoration: none;
+  color: var(--dark-red);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav {
+  width: 80rem;
+  height: 4.375rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  height: 20rem;
+  background: var(--baby-pink);
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 25px;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.hamburguer {
+  border: none;
+  background: none;
+  border-top: 3px solid var(--white);
+  cursor: pointer;
+  display: block;
+  margin-top: 2rem;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+  content: " ";
+  display: block;
+  width: 1.875rem;
+  height: 3px;
+  background: var(--white);
+  margin-top: 5px;
+}
+
+dialog::backdrop {
+  background: none;
+  border: none;
+}
+
+dialog {
+  background: none;
+  border: none;
+}

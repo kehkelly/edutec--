@@ -1,0 +1,10 @@
+@import './colors.css';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--red);
+    padding-inline: 2.375rem;
+    padding-top: 2.8125rem;
+}
+

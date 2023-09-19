@@ -1,0 +1,59 @@
+@import './colors.css';
+@import './fonts.css';
+@import '../style.css';
+
+.efeito {
+    position: relative;
+}
+
+.texto {
+    visibility: hidden;
+    position: absolute;
+    left: -0.05rem;
+    right: -0.05rem;
+    bottom: 0.5rem;
+}
+
+.dupla {
+    visibility: hidden;
+    position: absolute;
+    left: -0.05rem;
+    right: -0.05rem;
+    bottom: 0.7rem;
+}
+
+.texto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: var(--livvic);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gray-transparent);
+    padding-inline: 3rem;
+    padding-block: 7rem;
+    border-radius: 15px;
+}
+
+.dupla p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gray-transparent);
+    font-family: var(--livvic);
+    text-align: center;
+    padding-inline: -2rem;
+    padding-block: 5.5rem;
+    border-radius: 12px;
+}
+
+.efeito:hover .texto, .efeito:hover .dupla {
+    visibility: visible;
+    cursor: pointer;
+}

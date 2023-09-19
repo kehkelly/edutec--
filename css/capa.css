@@ -1,0 +1,92 @@
+@import './fonts.css';
+@import './colors.css';
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
+}
+
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 6rem;
+}
+
+h1 {
+    font-family:var(--lora);
+    font-size: 5.25rem;
+    color: var(--red);
+    margin-top: 4rem;
+}
+
+p {
+    font-family: var(--livvic);
+    font-size: 2rem;
+    color: var(--red);
+    text-align: left;
+    margin-top: 2.4rem;
+    margin-bottom: 6.4375rem;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.white a {
+    text-decoration: none;
+    background: var(--red);
+    color: var(--white);
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--livvic);
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px var(--dark-red);
+}
+
+.red {
+    background: var(--red);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 8rem;
+    align-items: flex-end;
+}
+
+.red a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -6rem;
+    margin-top: 2rem;
+}
+
+.pontos {
+    width: 1.8125rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    margin-right: -2.4375rem;
+}
+
+.red a img {
+    width: 11rem;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    align-self: center;
+}
+
+.cabeca img {
+    width: 25rem;
+}

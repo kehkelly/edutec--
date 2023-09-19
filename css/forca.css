@@ -1,0 +1,56 @@
+@import './colors.css';
+@import './fonts.css';
+
+body {
+    background: var(--gray-transparent);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 67.75rem;
+    background: var(--gray);
+    margin-top: 6.25rem;
+    margin-bottom: 5.625rem;
+    border-radius: 25px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.fechar {
+    margin-top: 0.8125rem;
+    margin-left: 0.8125rem;
+}
+
+.superior {
+    margin-top: 1.375rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.dica {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin-left: 2.5625rem;
+}
+
+p {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    font-family: var(--livvic);
+}
+
+.teclado {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-block: 3.5rem;
+}
